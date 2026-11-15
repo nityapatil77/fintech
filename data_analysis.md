@@ -6,8 +6,6 @@
 
 **Assets:** Bitcoin, Ethereum, Solana, Coinbase (COIN). **Controls:** S&P 500, VIX, 10-yr Treasury yield.
 
-> All images load from the `Output/` folder. Keep this file in the same folder that contains `Output/` (e.g., `Downloads/README.md` and `Downloads/Output/*.png`).
-
 ---
 
 ## Bottom line (read this first)
@@ -27,7 +25,7 @@ A defensible thesis is a **refined** claim: *regulatory news matters for regulat
 
 ## Chart 1: Rebased Prices Around Each Event
 
-![Rebased prices](Output/01_rebased_prices.png)
+![Rebased prices](output/01_rebased_prices.png)
 
 **What it shows:** Each asset's price indexed to 100 on the day before the event, for 10 trading days before and after. One panel per event. The dashed line is the event day.
 
@@ -43,7 +41,7 @@ A defensible thesis is a **refined** claim: *regulatory news matters for regulat
 
 ## Chart 2a: Abnormal Returns, [-1, +1] Window
 
-![CAR -1 to +1](Output/02_CAR-1_+1.png)
+![CAR -1 to +1](output/02_CAR-1_+1.png)
 
 **What it shows:** The return in the three days around each event *after removing* what the S&P 500, VIX, and interest-rate changes would have predicted. This isolates the "regulation effect."
 
@@ -66,7 +64,7 @@ A defensible thesis is a **refined** claim: *regulatory news matters for regulat
 
 ## Chart 2b: Abnormal Returns, [0, +5] Window
 
-![CAR 0 to +5](Output/02_CAR0_+5.png)
+![CAR 0 to +5](output/02_CAR0_+5.png)
 
 **What it shows:** The same abnormal return, accumulated over the event day and the next five trading days.
 
@@ -88,7 +86,7 @@ A defensible thesis is a **refined** claim: *regulatory news matters for regulat
 
 ## Chart 3: Trading Volume Heatmap
 
-![Volume heatmap](Output/03_volume_heatmap.png)
+![Volume heatmap](output/03_volume_heatmap.png)
 
 **What it shows:** Average volume on the event day and the day after, divided by the prior 30-day average. 1.0x is normal activity; green is below normal and red is above.
 
@@ -105,7 +103,7 @@ A defensible thesis is a **refined** claim: *regulatory news matters for regulat
 
 ## Chart 4: Rolling 20-Day Volatility
 
-![Rolling volatility](Output/04_rolling_volatility.png)
+![Rolling volatility](output/04_rolling_volatility.png)
 
 **What it shows:** Annualized volatility over a rolling 20-day window for BTC, ETH, and SOL from mid-2024 to now. Dashed lines mark the events (three clustered in June to July 2025, one in September 2026).
 
@@ -120,7 +118,7 @@ A defensible thesis is a **refined** claim: *regulatory news matters for regulat
 
 ## Chart 5: Hourly Prices on September 14 to 16, 2026
 
-![Intraday Sept 15](Output/05_intraday_sept15.png)
+![Intraday Sept 15](output/05_intraday_sept15.png)
 
 **What it shows:** Hourly Coinbase prices for BTC, ETH, and SOL (indexed to 100 at the start) with hourly BTC volume below. The dashed line marks the cloture vote.
 
@@ -140,7 +138,7 @@ A defensible thesis is a **refined** claim: *regulatory news matters for regulat
 
 ## Chart 6: Variance Explained, Macro vs. Event Days
 
-![R-squared decomposition](Output/06_r2_decomposition.png)
+![R-squared decomposition](output/06_r2_decomposition.png)
 
 **What it shows:** For each asset, how much of the size of daily moves (absolute return) is explained by S&P 500, VIX, and rates (gray), and how much extra is explained by adding event-day dummies (red). This is the direct test of "regulation vs. economic factors."
 
