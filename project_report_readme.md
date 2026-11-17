@@ -41,8 +41,8 @@ Before reviewing the findings, it is essential to understand the statistical ter
 
 **What it shows:** Tracks each asset's price indexed to 100 on the day immediately preceding an event, spanning 10 trading days before and after.
 
-**What it tells us in plain English:**
-- **GENIUS Senate passes (top left):** Coinbase shares surged roughly $13\%$ the next day and reached a $43\%$ gain by day +6, while Bitcoin remained completely flat near 100. This is the cleanest event reaction in the entire dataset and is unique to Coinbase.
+**What it tells us:**
+- **GENIUS Senate passes (top left):** Coinbase shares surged roughly 13% the next day and reached a 43% gain by day +6, while Bitcoin remained completely flat near 100. This is the cleanest event reaction in the entire dataset and is unique to Coinbase.
 - **CLARITY House passes and GENIUS signed (top right, bottom left):** Ethereum and Solana prices spiked 10% to 17% around the event window. However, the chart reveals they were **already rallying sharply prior to the news** (Ethereum rose ~30% in the days leading up to day 0). This makes it impossible to prove the law caused the rally rather than a pre-existing bull market trend.
 - **CLARITY cloture fails (bottom right):** All assets dipped initially on day 0, but subsequently rallied 5% to 16% over the following days. The failure of the bill did not cause a permanent market collapse.
 - **Bitcoin stays completely flat** across all panels around day 0.
